@@ -1,7 +1,10 @@
-# Creating a schema to house the tables and setting the path 
+# Creating schema and tables
+
+## Creating a schema to house the tables and setting the path 
 
       CREATE SCHEMA pizza_runner;
       USE pizza_runner;
+      
 ## runners
       DROP TABLE IF EXISTS runners;
       CREATE TABLE runners (
